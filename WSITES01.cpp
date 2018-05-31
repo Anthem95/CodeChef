@@ -1,5 +1,16 @@
 // WSITES01.cpp : Defines the entry point for the console application.
-//
+// Problem Description: (From CodeChef, WSITES01)
+// Mike is a network administrator in a university. One of his primary responsibilities in 
+// the job is to create an effective firewall so that the students are not able to visit the blocked sites in the network.
+
+//The network have access to exactly N sites. Some of these can be blocked. The names 
+//of the sites will be given in lowercase English letters.
+
+//The firewall will consist of several filters. A filter is a string that should be a prefix of some blocked site,
+//and it should not be a prefix of any unblocked site. You want to minimize the sum of length of filters in the 
+//firewall so that for each of the blocked site, there should be a filter that contains the name
+//of blocked site(filter is a prefix of blocked site).
+
 
 #include "stdafx.h"
 #include <iostream>
